@@ -1,0 +1,8 @@
+# directories
+examples/build/hello-world
+!examples/build/.gitkeep
+./target
+
+# files
+*.o
+
