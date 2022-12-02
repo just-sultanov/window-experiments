@@ -1,4 +1,4 @@
-# window-experiments
+# window-rs
 
 Experiments with window creation (Rust, C++ and Metal)
 

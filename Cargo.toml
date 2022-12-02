@@ -1,0 +1,30 @@
+[package]
+name = "window-rs"
+description = "Experiments with window creation (Rust, C++ and Metal)"
+version = "0.0.1"
+
+license = "MIT"
+readme = "readme.md"
+
+authors = ["Ilshat Sultanov <ilshat@sultanov.team>"]
+homepage = "https://github.com/just-sultanov/window-rs"
+repository = "https://github.com/just-sultanov/window-rs"
+categories = []
+
+edition = "2021"
+rust-version = "1.65"
+exclude = []
+
+
+[dependencies]
+anyhow = "1.0.66"
+serde = { version = "1.0.148", features = ["derive"] }
+tokio = { version = "1.21.2", features = ["full"]}
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
+uuid = { version = "1.2.2", features = ["v4", "fast-rng", "macro-diagnostics"]} 
+
+
+[dev-dependencies]
+clippy = "0.0.302"
+
